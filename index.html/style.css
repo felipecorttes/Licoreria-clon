@@ -1,0 +1,31 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header {
+    background: #EE3932;
+    padding: 0 2rem;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    height: 85px;
+    align-items: center;
+}
+nav {
+    display: grid;
+    grid-column: 2;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+nav a{
+    text-decoration: none;
+    color: white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 1.5rem;
+}
+.logo img {
+    width: 80px;
+    height: 80px;
+    display: grid;
+    grid-column: 1;
+    margin: 5px;
+}
